@@ -21,7 +21,7 @@ payload = {
 headers = {
     'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36'
 }
-s = requests.Session()
+s = requests.session()
 
 #response = s.get('https://auth.mail.ru')
 r1 = s.request("GET", url = url2, headers=headers)
